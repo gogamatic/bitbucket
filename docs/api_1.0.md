@@ -14,7 +14,7 @@ Endpoints and Resources
     * dashboard `/user/repositories/dashboard`
 
 * users
-  * account 
+  * user 
     * profile `/users/{accountname}`
     * plan `/users/{accountname}/plan`
     * followers `/users/{accountname}/followers`
@@ -26,5 +26,5 @@ Endpoints and Resources
     * invitations `/users/{accountname}/invitations`
       * email `/users/{accountname}/invitations/{email_address}`
         * group `/users/{accountname}/invitations/{email_address}/{group_owner}/{group_slug}`
-    * ssh-keys `/users/{accountname}/ssh-keys
-      * key `/users/{accountname}/ssh-keys/{key_id}
+    * ssh-keys `/users/{accountname}/ssh-keys`
+      * key `/users/{accountname}/ssh-keys/{key_id}`
