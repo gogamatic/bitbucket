@@ -1,8 +1,5 @@
-Bitbucket REST API 1.0 Structure
+Bitbucket REST API 1.0 Resources
 ================================
-
-Endpoints and Resources
------------------------
 
 * ####user
   * profile `/user`
@@ -14,7 +11,7 @@ Endpoints and Resources
     * dashboard `/user/repositories/dashboard`
 
 * ####users
-  * user 
+  * account 
     * profile `/users/{accountname}`
     * plan `/users/{accountname}/plan`
     * followers `/users/{accountname}/followers`
@@ -29,4 +26,16 @@ Endpoints and Resources
     * ssh-keys `/users/{accountname}/ssh-keys`
       * key `/users/{accountname}/ssh-keys/{key_id}`
       
+* ####groups `/groups?{filter}&{filter}*...`
+  * account `/groups/{accountname}`
+    * group `/groups/{accountname}/{grup_slug}`
+      * members `/groups/{accountname}/{group_slug}/members`
+        * member `/groups/{accountname}/{group_slug}/members/{membername}`
 
+* ####group-priveleges
+  * account `/group-priveleges/{accountname}`
+    * repositories `/group-privileges/{accountname}/{group_owner}/{group_slug}`
+    * repository `/group-priveleges/{accountname}/{repo_slug}` 
+      * group `/group-priveleges/{accountname}/{repo_slug}/{group_owner}/{group_slug}` 
+   
+  
