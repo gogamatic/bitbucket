@@ -101,7 +101,7 @@
   `PUT /repositories/{accountname}/{repo_slug}/wiki/{page}`
 
 
-* Changeset Comments
+* **Changeset Comments**
 
   `GET /repositories/{accountname}/{repo_slug}/changesets/{raw_node}/comments`
 
@@ -115,7 +115,7 @@
 
   `PUT /repositories/{accountname}/{repo_slug}/changesets/{raw_node}/comments/spam/{comment_id}`
 
-* Changesets
+* **Changesets**
 
   `GET /repositories/{accountname}/{repo_slug}/changesets/`
 
@@ -125,12 +125,12 @@
 
   `GET /repositories/{accountname}/{repo_slug}/changesets/{raw_node}/diff`
 
-* Changeset File History
+* **Changeset File History**
 
   `GET /repositories/{accountname}/{repo_slug}/filehistory/{node}/{path}`
 
 
-* Pull Request Comments
+* **Pull Request Comments**
 
   `GET /repositories/{accountname}/{repo_slug}/pullrequests/{pull_request_id}/comments`
 
@@ -145,12 +145,12 @@
   `PUT /repositories/{accountname}/{repo_slug}/pullrequests/{request_id}/comments/spam/{comment_id}`
 
 
-* Change Request Participants
+* **Change Request Participants**
 
   `GET /repositories/{accountname}/{repo_slug}/pullrequests/{request_id}/participants/`
 
 
-* Revision
+* **Revision**
 
   `GET /repositories/{accountname}/{repo_slug}/src/{revision}/{path}`
 
@@ -161,13 +161,13 @@
   `GET /repositories/{accountname}/{repo_slug}/manifest/{revision}/`
 
 
-* Events
+* **Events**
 
   `GET /repositories/{accountname}/{repo_slug}/events`
 
   `GET /users/{accountname}/events`
 
-* Services
+* **Services**
 
   `GET /repositories/{accountname}/{repo_slug}/services`
 
@@ -177,7 +177,7 @@
 
   `DELETE /repositories/{accountname}/{repo_slug}/services/{service_id}`
 
-* Repositories
+* **Repositories**
 
   `POST /repositories`
 
@@ -188,7 +188,7 @@
   `DELETE /repositories`
 
 
-* Repository Links
+* **Repository Links**
 
   `GET /repositories/{accountname}/{repo_slug}/links/{link_id}`
 
@@ -199,7 +199,7 @@
   `DELETE /repositories/{accountname}/{repo_slug}/links/{link_id}`
   
 
-* Repository Deploy Keys
+* **Repository Deploy Keys**
 
   `GET /repositories/{accountname}/{repo_slug}/deploy-keys`
 
@@ -208,7 +208,7 @@
   `DELETE /repositories/{accountname}/{repo_slug}/deploy-keys/{key_id}`
   
 
-* Fork repository
+* **Fork repository**
 
   `POST /repositories/{accountname}/{repo_slug}/fork`
 
@@ -217,24 +217,24 @@
   `POST /repositories/{accountname}/{repo_slug}/mq`
   
 
-* Users
+* **Users**
 
   `GET /users`
 
   `DELETE /users/{accountname}`
   
 
-* Plan
+* **Plan**
 
   `GET /users/{accountname}/plan/`
   
 
-* Ad
+* **Ad**
 
   `DELETE /users/{accountname}/ad/{ad_id}`
   
 
-* Group Permissions
+* **Group Permissions**
 
   `GET /group-privileges/{accountname}`
 
@@ -249,7 +249,7 @@
   `DELETE /group-privileges/{accountname}/{repo_slug}/{group_owner}/{group_slug}`
   
 
-* User Permissions
+* **User Permissions**
 
   `GET /privileges/{accountname}/{repo_slug}`
 
@@ -264,7 +264,7 @@
   `DELETE /privileges/{accountname}`
   
 
-* Team Privileges
+* **Team Privileges**
 
   `GET /users/{accountname}/privileges`
 
@@ -277,7 +277,7 @@
   `DELETE /users/{accountname}/privileges/{group_owner}/{group_slug}`
   
 
-* Account Invites
+* **Account Invites**
 
   `GET /users/{accountname}/invitations`
 
@@ -292,7 +292,7 @@
   `DELETE /users/{accountname}/invitations/{email}/{group_owner}/{group_slug}`
   
 
-* Repository Invites
+* **Repository Invites**
 
   `POST /invitations/{accountname}/{repo_slug}/{email}`
 
@@ -312,7 +312,7 @@
   `PUT /groups/{accountname}/{group_slug}`
   
 
-* Group Members
+* **Group Members**
 
   `GET /groups/{accountname}/{group_slug}/members`
 
@@ -323,14 +323,14 @@
   `DELETE /groups/{accountname}/{group_slug}/members/{member_account}`
   
 
-* Followers
+* **Followers**
 
   `GET /users/{accountname}/followers`
 
   `GET /repositories/{accountname}/{repo_slug}/followers`
   
 
-* Consumer
+* **Consumer**
 
   `GET /users/{accountname}/consumers`
 
@@ -343,7 +343,7 @@
   `DELETE /users/{accountname}/consumers/{key_id}`
   
 
-* SSH Keys
+* **SSH Keys**
 
   `GET /users/{accountname}/ssh-keys`
 
@@ -354,7 +354,7 @@
   `DELETE /users/{accountname}/ssh-keys/{key_id}`
   
 
-* Email
+* **Email**
 
   `GET /users/{accountname}/emails`
 
