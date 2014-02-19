@@ -7,15 +7,13 @@ Endpoints
 * users
 
 
-User Endpoint
-=============
+### User Endpoint
 
 Resources:
-* profile [foo]
-* priveleges
-* follows
-* repositories
- * visible
- * following
- * dashboard
+* profile [`/user`]
+* priveleges [`/user/privileges`]
+* follows [`/user/follows`]
+* repositories [`/user/repositories`]
+ * following [`/user/repositories/overview`]
+ * dashboard [`/user/repositories/dashboard`]
 
