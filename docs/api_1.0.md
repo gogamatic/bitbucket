@@ -4,7 +4,7 @@ Bitbucket REST API 1.0 Structure
 Endpoints and Resources
 -----------------------
 
-* user
+* ####user
   * profile `/user`
   * priveleges `/user/privileges`
   * follows `/user/follows`
@@ -13,7 +13,7 @@ Endpoints and Resources
     * following `/user/repositories/overview`
     * dashboard `/user/repositories/dashboard`
 
-* users
+* ####users
   * user 
     * profile `/users/{accountname}`
     * plan `/users/{accountname}/plan`
@@ -28,3 +28,5 @@ Endpoints and Resources
         * group `/users/{accountname}/invitations/{email_address}/{group_owner}/{group_slug}`
     * ssh-keys `/users/{accountname}/ssh-keys`
       * key `/users/{accountname}/ssh-keys/{key_id}`
+      
+
