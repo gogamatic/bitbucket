@@ -1,5 +1,5 @@
-
 * User
+
   GET /user/
   GET /user/privileges/
   GET /user/follows/
