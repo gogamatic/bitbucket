@@ -13,8 +13,8 @@ User Endpoint
 Resources:
 * profile
 * priveleges
+* follows
 * repositories
- * follows
  * visible
  * following
  * dashboard
