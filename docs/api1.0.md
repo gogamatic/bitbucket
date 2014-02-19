@@ -1,17 +1,27 @@
 * User
   
   `GET /user`
+
   `GET /user/privileges`
+  
   `GET /user/follows`
+  
   `GET /user/repositories`
+  
   `GET /user/repositories/overview`
+  
   `GET /user/repositories/dashboard`
 
 * Issues
+
   `GET /repositories/{accountname}/{repo_slug}/issues`
+
   `POST /repositories/{accountname}/{repo_slug}/issues`
+  
   `GET /repositories/{accountname}/{repo_slug}/issues/{issue_id}`
+  
   `PUT /repositories/{accountname}/{repo_slug}/issues/{issue_id}`
+  
   `DELETE /repositories/{accountname}/{repo_slug}/issues/{issue_id}`
 
 * Issue Followers
