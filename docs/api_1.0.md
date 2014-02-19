@@ -26,7 +26,8 @@ Bitbucket REST API 1.0 Resources
     * ssh-keys `/users/{accountname}/ssh-keys`
       * key `/users/{accountname}/ssh-keys/{key_id}`
       
-* ####groups `/groups?{filter}&{filter}*...`
+* ####groups
+  * matching `/groups?{filter}&{filter}*...`
   * account `/groups/{accountname}`
     * group `/groups/{accountname}/{grup_slug}`
       * members `/groups/{accountname}/{group_slug}/members`
