@@ -1,30 +1,26 @@
 Bitbucket REST API 1.0 Review
 =============================
 
-Endpoints
+Endpoints and Resources
 ---------
 
 * user
+ * profile `/user`
+ * priveleges `/user/privileges`
+ * follows `/user/follows`
+ * repositories 
+  * visible `/user/repositories`
+  * following `/user/repositories/overview`
+  * dashboard `/user/repositories/dashboard`
 
-
-### User endpoint resources
-
-* profile `/user`
-* priveleges `/user/privileges`
-* follows `/user/follows`
-* repositories `/user/repositories`
- * following `/user/repositories/overview`
- * dashboard `/user/repositories/dashboard`
-
-### Users endpoint resources
-
-* account 
-  * profile `/users/{accountname_or_email}`
-  * plan `/users/{accountname}/plan`
-  * followers `/users/{accountname}/followers`
-  * events `/users/{accountname}/events`
-  * consumers `/users/{accountname}/consumers`
-    * consumer `/users/{accountname}/consumers/{key_id}`
+* users
+ * account 
+   * profile `/users/{accountname_or_email}`
+   * plan `/users/{accountname}/plan`
+   * followers `/users/{accountname}/followers`
+   * events `/users/{accountname}/events`
+   * consumers `/users/{accountname}/consumers`
+     * consumer `/users/{accountname}/consumers/{key_id}`
   
 * emails
 * invitations
