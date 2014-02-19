@@ -24,7 +24,7 @@ Endpoints
   * followers `/users/{accountname}/followers`
   * events `/users/{accountname}/events`
   * consumers `/users/{accountname}/consumers`
-    * consumer `/users/{accountname}/{id}`
+    * consumer `/users/{accountname}/consumers/{key_id}`
   
 * emails
 * invitations
