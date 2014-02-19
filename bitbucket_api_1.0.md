@@ -9,9 +9,9 @@ Endpoints and Resources
   * priveleges `/user/privileges`
   * follows `/user/follows`
   * repositories 
-   * visible `/user/repositories`
-   * following `/user/repositories/overview`
-   * dashboard `/user/repositories/dashboard`
+    * visible `/user/repositories`
+    * following `/user/repositories/overview`
+    * dashboard `/user/repositories/dashboard`
 
 * users
   * account 
