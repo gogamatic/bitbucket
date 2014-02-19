@@ -1,5 +1,5 @@
-bitbucket.org REST API 1.0 Methods and Resources
-------------------------------------------------
+bitbucket.org REST API 1.0 Summary
+----------------------------------
 
 
 * **User**
