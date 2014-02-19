@@ -301,7 +301,7 @@ bitbucket.org REST API 1.0 Summary
   `POST /invitations/{accountname}/{repo_slug}/{email}`
 
 
-  `Groups`
+* **Groups**
 
   `GET /groups`
 
