@@ -1,5 +1,5 @@
-Bitbucket REST API 1.0 Resources
-================================
+bitbucket.org REST API 1.0 Resources
+====================================
 
 * ####user
   * profile `/user`
@@ -38,5 +38,12 @@ Bitbucket REST API 1.0 Resources
     * repositories `/group-privileges/{accountname}/{group_owner}/{group_slug}`
     * repository `/group-priveleges/{accountname}/{repo_slug}` 
       * group `/group-priveleges/{accountname}/{repo_slug}/{group_owner}/{group_slug}` 
+
+* ####invitations
+
+* ####repositories
+ 
+
+      
    
   
