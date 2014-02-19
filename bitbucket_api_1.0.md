@@ -11,7 +11,7 @@ User Endpoint
 =============
 
 Resources:
-* profile
+* profile [foo]
 * priveleges
 * follows
 * repositories
