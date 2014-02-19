@@ -1,5 +1,5 @@
-Bitbucket REST API 1.0 Review
-=============================
+Bitbucket REST API 1.0 Structure
+================================
 
 Endpoints and Resources
 ---------
@@ -15,12 +15,14 @@ Endpoints and Resources
 
 * users
   * account 
-    * profile `/users/{accountname_or_email}`
+    * profile `/users/{accountname}`
     * plan `/users/{accountname}/plan`
     * followers `/users/{accountname}/followers`
     * events `/users/{accountname}/events`
     * consumers `/users/{accountname}/consumers`
-    * consumer `/users/{accountname}/consumers/{key_id}`
+      * consumer `/users/{accountname}/consumers/{key_id}`
+    * emails `/users/{accountname}/emails`
+      * address `/users/{accountname}/emails/{email_address}`
   
 * emails
 * invitations
@@ -28,3 +30,16 @@ Endpoints and Resources
 * priveleges
 * ssh-keys
 
+
+* User
+  * profile `/user`
+  * priveleges `/user/priveleges`
+  * follows `/user/follows`
+  * repositories `/user/repositories`
+    * following `/user/repositories/follows`
+  * repositories `/user/repositories/overview`
+  * dashboard `/user/repositories/dashboard`
+  * following `/user/repositories/following`
+
+* Users
+  * account
