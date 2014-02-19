@@ -14,8 +14,8 @@ Resources:
 * profile
 * priveleges
 * repositories
-** follows
-** visible
-** following
-** dashboard
+ ** follows
+ ** visible
+ ** following
+ ** dashboard
 
