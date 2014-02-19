@@ -1,4 +1,4 @@
-* User
+* **User**
   
   `GET /user`
 
@@ -12,7 +12,7 @@
   
   `GET /user/repositories/dashboard`
 
-* Issues
+* **Issues**
 
   `GET /repositories/{accountname}/{repo_slug}/issues`
 
@@ -24,11 +24,12 @@
   
   `DELETE /repositories/{accountname}/{repo_slug}/issues/{issue_id}`
 
-* Issue Followers
+* **Issue Followers**
 
   `GET /repositories/{accountname}/{repo_slug}/issues/{issue_id}/followers`
 
-* Issue Comments
+* **Issue Comments**
+
   `GET /repositories/{accountname}/{repo_slug}/issues/{issue_id}/comments`
 
   `POST /repositories/{accountname}/{repo_slug}/issues/{issue_id}/comments`
@@ -37,7 +38,8 @@
   
   `PUT /repositories/{accountname}/{repo_slug}/issues/{issue_id}/comments/{comment_id}`
 
-* Issue Components
+* **Issue Components**
+
   `GET /repositories/{accountname}/{repo_slug}/issues/components`
 
   `POST /repositories/{accountname}/{repo_slug}/issues/components`
@@ -48,7 +50,8 @@
   
   `DELETE /repositories/{accountname}/{repo_slug}/issues/components/{object_id}`
 
-* Issue milestones
+* **Issue milestones**
+
   `GET /repositories/{accountname}/{repo_slug}/issues/milestones/`
 
   `POST /repositories/{accountname}/{repo_slug}/issues/milestones`
@@ -59,7 +62,8 @@
   
   `DELETE /repositories/{accountname}/{repo_slug}/issues/milestones/{object_id}`
 
-* Issue versions
+* **Issue versions**
+
   `GET /repositories/{accountname}/{repo_slug}/issues/versions`
 
   `POST /repositories/{accountname}/{repo_slug}/issues/versions`
@@ -71,24 +75,24 @@
   `DELETE /repositories/{accountname}/{repo_slug}/issues/versions/{object_id}`
 
 
-* Repository Tags
+* **Repository Tags**
 
   `GET /repositories/{accountname}/{repo_slug}/tags`
 
   `GET /repositories/{accountname}/{repo_slug}/branches-tags`
 
 
-* Repository Branches
+* **Repository Branches**
  
   `GET /repositories/{accountname}/{repo_slug}/branches`
 
 
-* Repository Main Branch
+* **Repository Main Branch**
  
   `GET /repositories/{accountname}/{repo_slug}/main-branch`
 
 
-* Wiki
+* **Wiki**
  
   `GET /repositories/{accountname}/{repo_slug}/wiki/{page}`
 
